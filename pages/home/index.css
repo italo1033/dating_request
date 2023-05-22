@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+body {
+    background-image: url('../../assests/logo.png');
+    padding-top: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .transparencia {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .bloco{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    gap:1rem
+  }
+
+  .content-button{
+    display: flex;
+    flex: row;
+    gap: 15%;
+  }
+  
+  h1{
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black; /* Sombras textuais */
+    color: white; /* Cor do texto */
+    font-family: 'Love Ya Like A Sister', cursive;
+
+
+  }
+  button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7475a;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #fff;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black; /* Sombras textuais */
+
+    
+  }
+
+  /* #no-button {
+    position: absolute;
+    left:20px;
+    transform: translateX(-50%);
+  } */
